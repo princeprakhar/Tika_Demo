@@ -1,0 +1,42 @@
+Sample PDF Test Content for Apache Tika
+1. Document Title
+
+Database Performance Report
+
+Author: Data Engineering Team
+Date: 2026-03-05
+
+1. Introduction
+
+This document contains sample database information used to test document parsing tools.
+The content includes:
+
+Text paragraphs
+
+A structured table
+
+PL/SQL code snippet
+
+Image example
+
+This document is specifically designed to test content extraction systems.
+
+2. Database Information Table
+Employee ID	Employee Name	Department	Salary
+101	Rahul Sharma	IT	75000
+102	Priya Verma	HR	65000
+103	Arjun Nair	Finance	72000
+104	Sneha Kapoor	IT	80000
+3. PL/SQL Query Example
+DECLARE
+   v_total_salary NUMBER;
+BEGIN
+   SELECT SUM(salary)
+   INTO v_total_salary
+   FROM employees
+   WHERE department = 'IT';
+
+   DBMS_OUTPUT.PUT_LINE('Total IT Salary: ' || v_total_salary);
+
+
+, unless OCR is enabled.

@@ -1,0 +1,8 @@
+services:
+  tika:
+    image: apache/tika:latest-full
+    container_name: tika
+    ports:
+      - "9998:9998"
+    restart: unless-stopped
+

@@ -1,0 +1,264 @@
+Chunks: 29
+[
+  {
+    "chunk_id": "dec4e232-8fa6-48dc-832c-ac566d537d57",
+    "type": "paragraph",
+    "content": "Sample PDF Test Content for Apache Tika",
+    "metadata": {
+      "section": null,
+      "source": "../sample.pdf"
+    }
+  },
+  {
+    "chunk_id": "7624d827-9e1e-40cf-918f-93fc9a975ca7",
+    "type": "section",
+    "content": "1. Document Title",
+    "metadata": {
+      "section": "1. Document Title",
+      "source": "../sample.pdf"
+    }
+  },
+  {
+    "chunk_id": "1a810837-7df5-4dcb-bb3d-828987fb1ac9",
+    "type": "paragraph",
+    "content": "Database Performance Report",
+    "metadata": {
+      "section": "1. Document Title",
+      "source": "../sample.pdf"
+    }
+  },
+  {
+    "chunk_id": "4ab6d3f7-801e-404f-8a4a-1b06a7293aef",
+    "type": "paragraph",
+    "content": "Author: Data Engineering Team",
+    "metadata": {
+      "section": "1. Document Title",
+      "source": "../sample.pdf"
+    }
+  },
+  {
+    "chunk_id": "776307f9-fe79-44f3-ab3c-73d6d8536133",
+    "type": "paragraph",
+    "content": "Date: 2026-03-05",
+    "metadata": {
+      "section": "1. Document Title",
+      "source": "../sample.pdf"
+    }
+  },
+  {
+    "chunk_id": "a0234e24-82aa-40cc-b565-161f35d762f5",
+    "type": "section",
+    "content": "1. Introduction",
+    "metadata": {
+      "section": "1. Introduction",
+      "source": "../sample.pdf"
+    }
+  },
+  {
+    "chunk_id": "538b0184-c374-45ca-a081-fbd85c03890e",
+    "type": "paragraph",
+    "content": "This document contains sample database information used to test document parsing tools.",
+    "metadata": {
+      "section": "1. Introduction",
+      "source": "../sample.pdf"
+    }
+  },
+  {
+    "chunk_id": "f11f4ec9-1479-46d1-a938-04a7cfdd0a77",
+    "type": "paragraph",
+    "content": "The content includes:",
+    "metadata": {
+      "section": "1. Introduction",
+      "source": "../sample.pdf"
+    }
+  },
+  {
+    "chunk_id": "482c96ef-24ac-4897-a18c-06ec2c34a6ed",
+    "type": "paragraph",
+    "content": "Text paragraphs",
+    "metadata": {
+      "section": "1. Introduction",
+      "source": "../sample.pdf"
+    }
+  },
+  {
+    "chunk_id": "d648101d-d892-4976-a177-61ce782eb0be",
+    "type": "paragraph",
+    "content": "A structured table",
+    "metadata": {
+      "section": "1. Introduction",
+      "source": "../sample.pdf"
+    }
+  },
+  {
+    "chunk_id": "886a3799-156d-4dc1-8c86-ef270753927f",
+    "type": "paragraph",
+    "content": "PL/SQL code snippet",
+    "metadata": {
+      "section": "1. Introduction",
+      "source": "../sample.pdf"
+    }
+  },
+  {
+    "chunk_id": "9f68e502-6ad2-4088-8a99-84430e62ee34",
+    "type": "paragraph",
+    "content": "Image example",
+    "metadata": {
+      "section": "1. Introduction",
+      "source": "../sample.pdf"
+    }
+  },
+  {
+    "chunk_id": "61fdecfd-c78b-44c5-8350-d72adc894c93",
+    "type": "paragraph",
+    "content": "This document is specifically designed to test content extraction systems.",
+    "metadata": {
+      "section": "1. Introduction",
+      "source": "../sample.pdf"
+    }
+  },
+  {
+    "chunk_id": "e1bb3ecf-2798-4f72-b2d1-8cfc467a3617",
+    "type": "section",
+    "content": "2. Database Information Table",
+    "metadata": {
+      "section": "2. Database Information Table",
+      "source": "../sample.pdf"
+    }
+  },
+  {
+    "chunk_id": "122c7dcb-a3b5-4183-a241-1debb2450399",
+    "type": "paragraph",
+    "content": "Employee ID\tEmployee Name\tDepartment\tSalary",
+    "metadata": {
+      "section": "2. Database Information Table",
+      "source": "../sample.pdf"
+    }
+  },
+  {
+    "chunk_id": "26968235-ea61-40e5-872c-7fedf5b59423",
+    "type": "paragraph",
+    "content": "101\tRahul Sharma\tIT\t75000",
+    "metadata": {
+      "section": "2. Database Information Table",
+      "source": "../sample.pdf"
+    }
+  },
+  {
+    "chunk_id": "8e5c6c6f-7e05-488c-8b67-006729569cb6",
+    "type": "paragraph",
+    "content": "102\tPriya Verma\tHR\t65000",
+    "metadata": {
+      "section": "2. Database Information Table",
+      "source": "../sample.pdf"
+    }
+  },
+  {
+    "chunk_id": "028f26ca-4b2c-4a48-a59e-3ec6ecc6f722",
+    "type": "paragraph",
+    "content": "103\tArjun Nair\tFinance\t72000",
+    "metadata": {
+      "section": "2. Database Information Table",
+      "source": "../sample.pdf"
+    }
+  },
+  {
+    "chunk_id": "59cb38de-f593-457a-b867-f99050bf8d4d",
+    "type": "paragraph",
+    "content": "104\tSneha Kapoor\tIT\t80000",
+    "metadata": {
+      "section": "2. Database Information Table",
+      "source": "../sample.pdf"
+    }
+  },
+  {
+    "chunk_id": "861f408f-9095-4b23-ad50-570834c1fa52",
+    "type": "procedure_step",
+    "content": "3. PL/SQL Query Example",
+    "metadata": {
+      "section": "2. Database Information Table",
+      "source": "../sample.pdf"
+    }
+  },
+  {
+    "chunk_id": "96c4a8a2-e1b8-4f58-a724-7072dd9e3846",
+    "type": "paragraph",
+    "content": "DECLARE",
+    "metadata": {
+      "section": "2. Database Information Table",
+      "source": "../sample.pdf"
+    }
+  },
+  {
+    "chunk_id": "3adc89cc-e7b6-444a-8574-87bfb5af4f92",
+    "type": "paragraph",
+    "content": "v_total_salary NUMBER;",
+    "metadata": {
+      "section": "2. Database Information Table",
+      "source": "../sample.pdf"
+    }
+  },
+  {
+    "chunk_id": "dd01b440-b87c-4e8f-8e84-56552b367630",
+    "type": "paragraph",
+    "content": "BEGIN",
+    "metadata": {
+      "section": "2. Database Information Table",
+      "source": "../sample.pdf"
+    }
+  },
+  {
+    "chunk_id": "bdc2b250-114a-4f66-aabe-14bfe1b43bd1",
+    "type": "paragraph",
+    "content": "SELECT SUM(salary)",
+    "metadata": {
+      "section": "2. Database Information Table",
+      "source": "../sample.pdf"
+    }
+  },
+  {
+    "chunk_id": "28d8b34b-5d28-4f74-890b-e3baee6fb7e7",
+    "type": "paragraph",
+    "content": "INTO v_total_salary",
+    "metadata": {
+      "section": "2. Database Information Table",
+      "source": "../sample.pdf"
+    }
+  },
+  {
+    "chunk_id": "cb6cb0aa-c521-4fee-a5e3-d4b491ff2943",
+    "type": "paragraph",
+    "content": "FROM employees",
+    "metadata": {
+      "section": "2. Database Information Table",
+      "source": "../sample.pdf"
+    }
+  },
+  {
+    "chunk_id": "4908345f-4171-4164-b1f9-b1fee24c8823",
+    "type": "paragraph",
+    "content": "WHERE department = 'IT';",
+    "metadata": {
+      "section": "2. Database Information Table",
+      "source": "../sample.pdf"
+    }
+  },
+  {
+    "chunk_id": "95768d7d-567b-4a11-bdf3-cd58f746f732",
+    "type": "paragraph",
+    "content": "DBMS_OUTPUT.PUT_LINE('Total IT Salary: ' || v_total_salary);",
+    "metadata": {
+      "section": "2. Database Information Table",
+      "source": "../sample.pdf"
+    }
+  },
+  {
+    "chunk_id": "cd46c62a-3946-40c7-ae04-f60f6fe6a4ea",
+    "type": "paragraph",
+    "content": ", unless OCR is enabled.",
+    "metadata": {
+      "section": "2. Database Information Table",
+      "source": "../sample.pdf"
+    }
+  }
+]
