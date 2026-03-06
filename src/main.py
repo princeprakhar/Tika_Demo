@@ -1,25 +1,64 @@
 import json
 from formatter import DBASOPFormatter
-from bs4 import BeautifulSoup
 
-# Load Tika JSON
-with open("../tika_output.json") as f:
-    data = json.load(f)
 
-tika_doc = data[0]
+TIKA_FILE = "../tika_output.json"
+SOURCE_FILE = "../sample.pdf"
+OUTPUT_FILE = "labelstudio_tasks.json"
 
-# Extract text from Tika HTML
-html_content = tika_doc.get("X-TIKA:content", "")
 
-soup = BeautifulSoup(html_content, "html.parser")
-text_content = soup.get_text("\n")
+def load_tika():
+    with open(TIKA_FILE, "r") as f:
+        return json.load(f)
 
-# Replace content with cleaned text
-tika_doc["content"] = text_content
 
-formatter = DBASOPFormatter("../sample.pdf")
+def convert_to_labelstudio(chunks):
+    tasks = []
 
-chunks = formatter.chunk(tika_doc)
+    for chunk in chunks:
+        content = chunk.get("content")
 
-print("Chunks:", len(chunks))
-print(json.dumps(chunks, indent=2))
+        if isinstance(content, list):
+            content = " | ".join(content)
+
+        task = {
+            "data": {
+                "text": content,
+                "chunk_id": chunk.get("chunk_id"),
+                "chunk_type": chunk.get("type"),
+                "section": chunk.get("metadata", {}).get("section"),
+                "source": chunk.get("metadata", {}).get("source")
+            }
+        }
+
+        tasks.append(task)
+
+    return tasks
+
+
+def main():
+
+    # Load Tika JSON
+    data = load_tika()
+
+    # Tika document
+    tika_doc = data[0] if isinstance(data, list) else data
+
+    # Run formatter
+    formatter = DBASOPFormatter(SOURCE_FILE)
+    chunks = formatter.chunk(tika_doc)
+
+    print("Total chunks:", len(chunks))
+
+    # Convert to Label Studio format
+    tasks = convert_to_labelstudio(chunks)
+
+    # Save tasks
+    with open(OUTPUT_FILE, "w") as f:
+        json.dump(tasks, f, indent=2)
+
+    print("Label Studio tasks saved to:", OUTPUT_FILE)
+
+
+if __name__ == "__main__":
+    main()
